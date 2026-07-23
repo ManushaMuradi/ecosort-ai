@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ecosort
+    username: postgres
+    password: Postgres@2026
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.ecosort: DEBUG
+    org.hibernate.SQL: DEBUG
+
+ecosort:
+  jwt:
+    # DEV-ONLY default so the app is runnable out of the box locally.
+    # Production MUST override this via the JWT_SECRET env var with a
+    # long, random, environment-specific value — never reuse this one.
+    secret: ${JWT_SECRET:dev-only-secret-key-change-me-please-this-is-not-for-production-use-32bytes-min}

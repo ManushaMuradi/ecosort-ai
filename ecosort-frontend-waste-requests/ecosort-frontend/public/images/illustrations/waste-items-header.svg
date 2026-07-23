@@ -1,0 +1,36 @@
+<svg width="340" height="220" viewBox="0 0 340 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of waste items being inspected">
+  <ellipse cx="170" cy="196" rx="140" ry="14" fill="#F4F4F5"/>
+
+  <!-- bottle -->
+  <g>
+    <rect x="112" y="120" width="26" height="60" rx="6" fill="#60A5FA"/>
+    <rect x="119" y="102" width="12" height="20" rx="3" fill="#93C5FD"/>
+    <rect x="112" y="140" width="26" height="12" fill="#EFF6FF" opacity="0.6"/>
+  </g>
+
+  <!-- can -->
+  <g>
+    <rect x="160" y="128" width="30" height="52" rx="5" fill="#A1A1AA"/>
+    <ellipse cx="175" cy="128" rx="15" ry="5" fill="#D4D4D8"/>
+    <rect x="160" y="146" width="30" height="10" fill="#178A4C"/>
+  </g>
+
+  <!-- paper -->
+  <path d="M206 140 L238 132 L244 178 L212 184Z" fill="#FDE68A"/>
+  <path d="M212 148 L236 142 M214 158 L234 153 M216 168 L230 164" stroke="#F59E0B" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- magnifying glass over the scene -->
+  <circle cx="180" cy="90" r="46" fill="#F0FDF6" stroke="#178A4C" stroke-width="6"/>
+  <path d="M212 122 L236 146" stroke="#178A4C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M160 100 C160 82 172 70 184 70" stroke="#22A35F" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- recycle arrows badge -->
+  <g transform="translate(60 56)">
+    <circle cx="0" cy="0" r="22" fill="#178A4C"/>
+    <path d="M-8 -6 L0 -12 L8 -6" stroke="#F0FDF6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-8 6 L-2 12 L4 4" stroke="#F0FDF6" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-6 -10 C-14 -6 -14 8 -6 10 M6 -10 C14 -6 12 6 6 9" stroke="#F0FDF6" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <path d="M290 60 C284 52 284 42 292 36 C300 44 300 54 290 60Z" fill="#DCFCE9"/>
+</svg>

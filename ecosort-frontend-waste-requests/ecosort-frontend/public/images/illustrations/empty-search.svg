@@ -1,0 +1,14 @@
+<svg width="240" height="200" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="No search results illustration">
+  <ellipse cx="120" cy="176" rx="76" ry="10" fill="#F4F4F5"/>
+
+  <circle cx="112" cy="90" r="46" fill="#F0FDF6" stroke="#D4D4D8" stroke-width="6"/>
+  <path d="M146 122 L172 148" stroke="#D4D4D8" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- empty tray icon inside the lens -->
+  <rect x="90" y="78" width="44" height="28" rx="5" fill="none" stroke="#E4E4E7" stroke-width="3" stroke-dasharray="5 5"/>
+
+  <path d="M172 148 L184 160" stroke="#A1A1AA" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- small x mark -->
+  <path d="M150 76 L162 88 M162 76 L150 88" stroke="#FCA5A5" stroke-width="4" stroke-linecap="round"/>
+</svg>

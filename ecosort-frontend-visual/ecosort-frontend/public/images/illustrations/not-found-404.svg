@@ -1,0 +1,19 @@
+<svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Page not found illustration">
+  <ellipse cx="180" cy="228" rx="130" ry="12" fill="#F4F4F5"/>
+
+  <text x="180" y="130" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="88" font-weight="700" fill="#DCFCE9" text-anchor="middle">404</text>
+
+  <!-- pot -->
+  <path d="M150 190 L160 220 L200 220 L210 190Z" fill="#178A4C"/>
+  <rect x="146" y="180" width="68" height="14" rx="6" fill="#0F6E3D"/>
+
+  <!-- wilted stem -->
+  <path d="M180 180 C180 160 168 150 156 152" stroke="#22A35F" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M156 152 C144 154 136 146 136 136 C148 134 158 140 156 152Z" fill="#86EFAC"/>
+  <path d="M156 152 C160 142 172 138 182 142" stroke="#22A35F" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- magnifying glass looking for the page -->
+  <circle cx="256" cy="150" r="30" fill="#F0FDF6" stroke="#178A4C" stroke-width="5"/>
+  <path d="M278 172 L296 190" stroke="#178A4C" stroke-width="8" stroke-linecap="round"/>
+  <text x="256" y="157" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="600" fill="#178A4C" text-anchor="middle">?</text>
+</svg>

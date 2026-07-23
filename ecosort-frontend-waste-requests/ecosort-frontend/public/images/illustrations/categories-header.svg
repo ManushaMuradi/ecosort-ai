@@ -1,0 +1,30 @@
+<svg width="340" height="220" viewBox="0 0 340 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of sorted recycling bins">
+  <ellipse cx="170" cy="196" rx="140" ry="14" fill="#F4F4F5"/>
+
+  <!-- green bin -->
+  <g>
+    <rect x="60" y="120" width="60" height="70" rx="7" fill="#22A35F"/>
+    <rect x="52" y="106" width="76" height="17" rx="7" fill="#178A4C"/>
+    <path d="M90 138 L90 164 M78 151 L102 151" stroke="#F0FDF6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M78 96 C74 84 82 74 92 74 C104 74 112 86 106 98 C98 92 84 90 78 96Z" fill="#6EE7A8"/>
+  </g>
+
+  <!-- blue bin (taller, center) -->
+  <g>
+    <rect x="140" y="100" width="64" height="90" rx="7" fill="#60A5FA"/>
+    <rect x="132" y="86" width="80" height="17" rx="7" fill="#3B82F6"/>
+    <rect x="160" y="122" width="28" height="34" rx="3" fill="#EFF6FF"/>
+    <circle cx="205" cy="72" r="13" fill="#BFDBFE"/>
+  </g>
+
+  <!-- yellow bin -->
+  <g>
+    <rect x="222" y="128" width="58" height="62" rx="7" fill="#FBBF24"/>
+    <rect x="214" y="114" width="74" height="17" rx="7" fill="#F59E0B"/>
+    <path d="M244 148 L258 162 M258 148 L244 162" stroke="#FFFBEB" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- floating leaves -->
+  <path d="M40 70 C34 62 34 52 42 46 C50 54 50 64 40 70Z" fill="#DCFCE9"/>
+  <path d="M300 100 C294 92 294 82 302 76 C310 84 310 94 300 100Z" fill="#BBF7D0"/>
+</svg>

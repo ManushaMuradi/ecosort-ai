@@ -1,0 +1,18 @@
+<svg width="240" height="200" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="No categories illustration">
+  <ellipse cx="120" cy="176" rx="86" ry="10" fill="#F4F4F5"/>
+
+  <!-- shelf -->
+  <rect x="40" y="120" width="160" height="10" rx="4" fill="#E4E4E7"/>
+  <rect x="52" y="130" width="6" height="40" fill="#E4E4E7"/>
+  <rect x="182" y="130" width="6" height="40" fill="#E4E4E7"/>
+
+  <!-- dashed empty bin outlines -->
+  <rect x="76" y="70" width="40" height="48" rx="6" fill="none" stroke="#D4D4D8" stroke-width="3" stroke-dasharray="6 6"/>
+  <rect x="128" y="70" width="40" height="48" rx="6" fill="none" stroke="#D4D4D8" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- small leaf resting on shelf -->
+  <path d="M112 110 C106 102 106 92 114 86 C122 94 122 104 112 110Z" fill="#BBF7D0"/>
+
+  <circle cx="120" cy="45" r="18" fill="#F0FDF6"/>
+  <path d="M112 46 C112 40 116 36 120 36 C125 36 129 41 127 46 C122 43 116 42 112 46Z" fill="#22A35F"/>
+</svg>

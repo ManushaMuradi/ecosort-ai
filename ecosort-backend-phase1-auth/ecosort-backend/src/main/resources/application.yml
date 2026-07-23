@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: ecosort-backend
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      # NEVER 'update' or 'create' beyond local exploratory testing.
+      # 'validate' ensures the JPA entity mapping matches the schema
+      # that Flyway migrations actually created — Flyway is the single
+      # source of truth for schema, JPA never mutates it.
+      ddl-auto: validate
+    open-in-view: false   # avoids lazy-loading-in-view anti-pattern; forces
+                           # deliberate fetch strategies in the service layer
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+server:
+  port: 8080
+  error:
+    include-message: never   # never leak exception messages via default error page;
+                              # GlobalExceptionHandler is the only path for error responses
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+ecosort:
+  jwt:
+    access-token-validity-ms: 900000   # 15 minutes
