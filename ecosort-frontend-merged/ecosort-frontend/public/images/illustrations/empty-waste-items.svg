@@ -1,0 +1,19 @@
+<svg width="240" height="200" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="No waste items illustration">
+  <ellipse cx="120" cy="176" rx="80" ry="10" fill="#F4F4F5"/>
+
+  <!-- open box -->
+  <path d="M70 120 L120 132 L170 120 L170 160 C170 164 167 167 163 168 L128 176 C124 177 116 177 112 176 L77 168 C73 167 70 164 70 160Z" fill="#DCFCE9"/>
+  <path d="M70 120 L120 108 L170 120 L120 132Z" fill="#F0FDF6" stroke="#BBF7D0" stroke-width="2"/>
+  <path d="M120 108 L120 132" stroke="#BBF7D0" stroke-width="2"/>
+
+  <!-- flaps open -->
+  <path d="M70 120 L48 100 L86 96 L120 108Z" fill="#BBF7D0"/>
+  <path d="M170 120 L192 100 L154 96 L120 108Z" fill="#BBF7D0"/>
+
+  <!-- floating leaf -->
+  <path d="M120 70 C112 62 112 50 122 44 C130 52 130 64 120 70Z" fill="#22A35F"/>
+
+  <!-- small question mark to imply "nothing here" -->
+  <circle cx="182" cy="150" r="16" fill="#F4F4F5"/>
+  <text x="182" y="157" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600" fill="#A1A1AA" text-anchor="middle">?</text>
+</svg>

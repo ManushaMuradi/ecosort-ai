@@ -1,0 +1,48 @@
+<svg width="480" height="600" viewBox="0 0 480 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a person watering a plant">
+  <circle cx="240" cy="300" r="230" fill="#F0FDF6"/>
+
+  <!-- ground -->
+  <ellipse cx="240" cy="470" rx="190" ry="26" fill="#DCFCE9"/>
+
+  <!-- pot -->
+  <path d="M186 430 L200 480 L280 480 L294 430 Z" fill="#178A4C"/>
+  <rect x="182" y="418" width="116" height="18" rx="6" fill="#0F6E3D"/>
+
+  <!-- stem -->
+  <path d="M240 418 C240 360 240 320 240 280" stroke="#22A35F" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- leaves -->
+  <path d="M240 340 C200 320 180 280 196 244 C236 254 252 296 240 340Z" fill="#22A35F"/>
+  <path d="M240 300 C280 284 306 248 296 210 C254 216 232 258 240 300Z" fill="#178A4C"/>
+  <path d="M240 280 C214 258 208 224 228 196 C258 210 266 250 240 280Z" fill="#6EE7A8"/>
+
+  <!-- person body -->
+  <path d="M108 470 C108 402 130 362 176 356 C184 400 176 440 148 470 Z" fill="#0F6E3D"/>
+  <rect x="96" y="452" width="66" height="20" rx="10" fill="#0F6E3D"/>
+  <!-- head -->
+  <circle cx="132" cy="330" r="30" fill="#E8B589"/>
+  <path d="M104 322 C104 300 118 288 134 288 C152 288 164 302 162 320 C148 312 116 308 104 322Z" fill="#3F3F46"/>
+  <circle cx="122" cy="332" r="2.6" fill="#3F3F46"/>
+  <circle cx="140" cy="332" r="2.6" fill="#3F3F46"/>
+  <path d="M122 342 Q131 348 140 342" stroke="#3F3F46" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- arm holding watering can -->
+  <path d="M158 372 C176 362 192 366 202 382" stroke="#E8B589" stroke-width="14" stroke-linecap="round"/>
+  <!-- watering can -->
+  <path d="M196 366 L232 356 L240 372 L238 392 L200 396 Z" fill="#4F46E5" opacity="0"/>
+  <path d="M198 368 L236 358 C244 356 250 362 248 370 L244 388 C243 393 238 396 233 395 L200 398 C195 398 192 394 193 389 Z" fill="#60A5FA"/>
+  <path d="M236 358 L258 348" stroke="#60A5FA" stroke-width="7" stroke-linecap="round"/>
+  <!-- water drops -->
+  <circle cx="262" cy="352" r="3" fill="#93C5FD"/>
+  <circle cx="270" cy="360" r="2.4" fill="#93C5FD"/>
+  <circle cx="266" cy="368" r="2" fill="#93C5FD"/>
+
+  <!-- small recycling bin -->
+  <rect x="330" y="410" width="56" height="62" rx="6" fill="#22A35F"/>
+  <rect x="322" y="398" width="72" height="16" rx="6" fill="#0F6E3D"/>
+  <path d="M358 430 L358 452 M348 440 L368 440" stroke="#F0FDF6" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- floating leaves -->
+  <path d="M356 330 C346 320 346 306 358 300 C368 310 366 324 356 330Z" fill="#6EE7A8"/>
+  <path d="M120 260 C112 252 112 240 122 234 C130 242 130 254 120 260Z" fill="#BBF7D0"/>
+</svg>
