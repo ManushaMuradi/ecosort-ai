@@ -3,7 +3,9 @@ import { tokenStorage } from "@/lib/auth/tokenStorage";
 import type { ApiResponse } from "@/types/api.types";
 import type { JwtResponse } from "@/types/auth.types";
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "https://ecosort-backend-d8hp.onrender.com";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_API_BASE_URL ??
+  "https://ecosort-backend-d8hp.onrender.com/api/v1";
 
 export const apiClient = axios.create({
   baseURL: BASE_URL,
