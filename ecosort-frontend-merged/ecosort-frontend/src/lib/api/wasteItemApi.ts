@@ -32,12 +32,12 @@ export const wasteItemApi = {
   },
 
   async getByCategory(categoryId: string, params: PageParams = {}): Promise<PageResponse<WasteItem>> {
-    const { data } = await apiClient.get<ApiResponse<PageResponse<WasteItem>>>(
-      `/categories/${categoryId}/waste-items`,
-      { params: buildPageParams(params) }
-    );
-    return data.data as PageResponse<WasteItem>;
-  },
+  const { data } = await apiClient.get<ApiResponse<PageResponse<WasteItem>>>(
+    `/waste-items/category/${categoryId}`,
+    { params: buildPageParams(params) }
+  );
+  return data.data as PageResponse<WasteItem>;
+},
 
   async create(payload: WasteItemFormValues): Promise<WasteItem> {
     const { data } = await apiClient.post<ApiResponse<WasteItem>>("/waste-items", payload);
