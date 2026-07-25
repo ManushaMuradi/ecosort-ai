@@ -5,7 +5,7 @@ import type { JwtResponse } from "@/types/auth.types";
 
 const BASE_URL =
   process.env.NEXT_PUBLIC_API_BASE_URL ??
-  "https://ecosort-backend-d8hp.onrender.com";
+  "https://ecosort-backend-d8hp.onrender.com/api/v1";
 
 export const apiClient = axios.create({
   baseURL: BASE_URL,
@@ -87,7 +87,7 @@ apiClient.interceptors.response.use(
     isRefreshing = true;
 
     try {
-      const { data } = await refreshClient.post<ApiResponse<JwtResponse>>("/api/v1/auth/refresh", {
+      const { data } = await refreshClient.post<ApiResponse<JwtResponse>>("/auth/refresh", {
         refreshToken,
       });
 
