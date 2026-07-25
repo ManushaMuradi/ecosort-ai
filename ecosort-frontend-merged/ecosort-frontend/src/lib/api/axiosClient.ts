@@ -87,7 +87,7 @@ apiClient.interceptors.response.use(
     isRefreshing = true;
 
     try {
-      const { data } = await refreshClient.post<ApiResponse<JwtResponse>>("/auth/refresh", {
+      const { data } = await refreshClient.post<ApiResponse<JwtResponse>>("/api/v1/auth/refresh", {
         refreshToken,
       });
 
