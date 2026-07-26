@@ -126,7 +126,7 @@ Manusha Muradi
 
 ## Live Demo
 
-[View Source Code][ecosort-ai-np2g.vercel.app]
+[View Source Code][https://ecosort-ai-np2g.vercel.app]
 
 ## GitHub Repository
 
